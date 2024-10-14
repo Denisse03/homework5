@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" id="albums">albums</a>
+      <a href="#" id="hop">Hip Hop</a>
+      <a href="#" id="jazzy">Jazz</a>
+      <a href="#" id="rapper">Rap</a>
+    </nav>
+
+    <div class="addAlbums">
+      <h1>Add Album</h1>
+      <label for="albumName">Album Name:</label>
+      <input type="text" id="albumName" placeholder="Album Name..." />
+
+      <label for="albumImage">Album Image:</label>
+      <input type="text" id="albumImage" placeholder="Album Image..." />
+
+      <label for="albumGenre"> Album Genre:</label>
+      <select id="albumGenre" name="albumGenre">
+        <option id="Hip-Hop" value="Hip-Hop">Hip-Hop</option>
+        <option id="Jazz" value="Jazz">Jazz</option>
+        <option id="Rap" value="Rap">Rap</option>
+      </select>
+
+      <input type="submit" id="addAlbum" value="Add Album" />
+    </div>
+
+    <div class="showAlbums"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

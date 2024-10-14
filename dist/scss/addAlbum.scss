@@ -1,0 +1,60 @@
+body {
+  background-color: #fff7fc;
+}
+
+.addAlbums {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff7fc;
+
+  label,
+  input {
+    display: block;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input {
+    margin-bottom: 40px;
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  select {
+    margin-bottom: 40px;
+    width: 15%;
+  }
+}
+
+.showAlbums {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  background-color: #fff7fc;
+
+  .album {
+    background-color: #8b93ff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  .albumImg {
+    img {
+      width: 60%;
+      height: 60%;
+      background-color: white;
+    }
+  }
+}
